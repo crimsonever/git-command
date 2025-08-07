@@ -15,7 +15,7 @@
 1、克隆仓库
 
 ```bash
-git clone https://github.com/crimsonever/test.git
+git clone https://github.com/crimsonever/knowledge-graph.git
 ```
 该命令将GitHub上的远程仓库完整复制一份到本地当前路径下，会自动创建test文件夹并包含项目所有文件。
 
@@ -23,7 +23,7 @@ git clone https://github.com/crimsonever/test.git
 
 先进入项目目录
 ```bash
-cd test
+cd knowledge-graph
 ```
 
 作者在向github上传项目时，不会将运行环境一起上传。 相应地，作者一般会通过requirements.txt来记录其所使用的环境配置。
@@ -111,6 +111,7 @@ git remote add origin https://github.com/你的用户名/你的仓库名.git
 
 7、推送代码到github
 ```bash
+git branch -M main
 git push -u origin main
 ```
 
