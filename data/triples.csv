@@ -1,0 +1,7 @@
+subject,predicate,object
+Alice,knows,Bob
+Alice,works_at,CompanyA
+Bob,knows,Charlie
+Charlie,works_at,CompanyB
+CompanyA,located_in,CityX
+CompanyB,located_in,CityY
