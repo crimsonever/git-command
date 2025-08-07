@@ -17,7 +17,7 @@
 ```bash
 git clone https://github.com/crimsonever/knowledge-graph.git
 ```
-该命令将GitHub上的远程仓库完整复制一份到本地当前路径下，会自动创建test文件夹并包含项目所有文件。
+该命令将GitHub上的远程仓库完整复制一份到本地当前路径下，会自动创建knowledge-graph文件夹并包含项目所有文件。
 
 2、创建并启用虚拟环境
 
@@ -26,7 +26,6 @@ git clone https://github.com/crimsonever/knowledge-graph.git
 cd knowledge-graph
 ```
 
-作者在向github上传项目时，不会将运行环境一起上传。 相应地，作者一般会通过requirements.txt来记录其所使用的环境配置。
 通过以下命令，你可以创建虚拟的python环境（在名为.venv的文件夹中）
 ```bash
 python -m venv .venv
@@ -36,10 +35,11 @@ python -m venv .venv
 ```bash
 .venv\Scripts\activate
 ```
-若成功，那么此刻你的路径前应该多出了(.venv)，告知你使用了虚拟环境。
+若成功，那么你的路径前应该多出了(.venv)，告知你使用了虚拟环境。
 
 3、安装依赖
 
+在向github上传项目时，作者一般会通过requirements.txt来记录其所使用的环境配置。
 通过以下命令，在虚拟环境中自动安装项目所需的第三方库。
 ```bash
 pip install -r requirements.txt
