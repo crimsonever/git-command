@@ -15,15 +15,15 @@
 1、克隆仓库
 
 ```bash
-git clone https://github.com/crimsonever/knowledge-graph.git
+git clone https://github.com/crimsonever/git-command.git
 ```
-该命令将GitHub上的远程仓库完整复制一份到本地当前路径下，会自动创建knowledge-graph文件夹并包含项目所有文件。
+该命令将GitHub上的远程仓库完整复制一份到本地当前路径下，创建git-command文件夹并包含项目所有文件。
 
 2、创建并启用虚拟环境
 
 先进入项目目录
 ```bash
-cd knowledge-graph
+cd git-command
 ```
 
 通过以下命令，你可以创建虚拟的python环境（在名为.venv的文件夹中）
